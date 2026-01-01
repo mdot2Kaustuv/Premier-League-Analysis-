@@ -1,0 +1,50 @@
+        PLAYER MASTER DATA [Seasonal] 
+| player_id               | Unique key        |
+| name                    | Display           |
+| team_id                 | Foreign key       |
+| position                | Filtering         |
+| age                     | Comparison        |
+| nationality             | Pie charts        |
+| height / preferred foot | Advanced insights | //might not be used 
+
+
+
+  SEASON PERFORMANCE
+
+Attacking:::
+goals
+assists
+shots
+shots_on_target
+xG
+xA
+big_chances
+dribbles_completed
+Passing
+passes_attempted
+pass_accuracy
+key_passes
+progressive_passes
+
+Defensive:::
+tackles
+interceptions
+clearances
+blocks
+
+Meta:::
+minutes_played
+matches_played
+
+
+TEAM SEASONAL PERFORMANCE
+goals_for
+goals_against
+xG
+xGA
+possession
+passes_per_match
+shots_per_match
+clean_sheets
+points
+
